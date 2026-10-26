@@ -4,7 +4,7 @@ Die Fahrräder können über verleich.search() mit den Jeweiligen SearchOptions 
 Man kann das Programm mit `./gradlew run` starten.
 
 # Welche Entscheidungen habe ich getroffen, und warum?
-Ich habe mich dazu entschieden den Verleih Persistent zu halten, damit neue Änderungen auch bestehen bleiben. (Stand abgabe ist in der Main.java eine `        Database.insertSampleData();` welche die Alten Daten löscht und Testdaten hinzufügt, damit das Testen einfacher gestaltet ist.)
+Ich habe mich dazu entschieden den Verleih Persistent zu halten, damit neue Änderungen auch bestehen bleiben. (Stand abgabe ist in der Main.java eine `Database.insertSampleData();` welche die Alten Daten löscht und Testdaten hinzufügt, damit das Testen einfacher gestaltet ist.)
 über die JavaKlassen können Personen eine Fahrrad aus einen Stellplatz nehmen und wieder zurück geben. Zudem können Stellplätze von sich aus Fahrräder hinzufügen welche dann ausgeliehen werden können. Dies deckt die Basis Funktionen ab. 
 Zudem kann dann noch die Anzahl aller belegten Stellplätze ausgegeben werden.
 
