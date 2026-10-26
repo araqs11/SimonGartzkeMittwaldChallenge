@@ -3,6 +3,7 @@ Ich habe den Fahrrad verleih als Konsolen Programm mit einer persistenten SQLite
 Die Fahrräder können über verleich.search() mit den Jeweiligen SearchOptions nach Marke, Typ, Rahmengröße und Akku gesucht werden.
 Die Stellplätze haben ein limit welches über einen Trigger in SQLite geforct wird. Hier wird dann eine RunetimeException geworfen, mit entsprechender Fehlermeldung.
 Man kann das Programm mit `./gradlew run` oder die Main ausführen(mit z.B. IntelliJ) starten.
+Stand jetzt crasht das Programm, um die Fehlermeldung zu zeigen, um das zu verhindern einfach Zeile 55 in der Main.java auskommentieren :)
 
 
 # Welche Entscheidungen habe ich getroffen, und warum?
